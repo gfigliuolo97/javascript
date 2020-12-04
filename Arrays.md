@@ -43,4 +43,15 @@ var x = 2;
 console.log(stringArray[x]);
 ```
 #### Output
-`["oranges"]`.
+`"oranges"`.
+
+## Leggere ultimo elemento
+Vogliamo leggere l'elemento in ultima posizione dell'array.
+```
+var stringArray = ["apple","banana","oranges"];
+console.log(stringArray[stringArray.length]);
+```
+#### Output
+`"oranges"`.
+
+
