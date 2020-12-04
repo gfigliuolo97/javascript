@@ -33,3 +33,14 @@ console.log(stringArray);
 ```
 #### Output
 `["banana","oranges"]`.
+
+## Leggere i-esimo elemento
+Vogliamo leggere l'elemento in posizione `x` dell'array.
+Ricordare che le posizioni iniziano da 0.
+```
+var stringArray = ["apple","banana","oranges"];
+var x = 2;
+console.log(stringArray[x]);
+```
+#### Output
+`["oranges"]`.
