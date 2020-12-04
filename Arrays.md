@@ -49,7 +49,7 @@ console.log(stringArray[x]);
 Vogliamo leggere l'elemento in ultima posizione dell'array.
 ```
 var stringArray = ["apple","banana","oranges"];
-console.log(stringArray[stringArray.length]);
+console.log(stringArray[stringArray.length - 1]);
 ```
 #### Output
 `"oranges"`.
