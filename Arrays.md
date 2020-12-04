@@ -22,3 +22,14 @@ console.log(stringArray);
 ```
 #### Output
 `["apple","banana"]`.
+
+## .shift()
+Viene eliminato il primo elemento dell'array.
+```
+var stringArray = ["apple","banana","oranges"];
+stringArray.shift();
+
+console.log(stringArray);
+```
+#### Output
+`["banana","oranges"]`.
