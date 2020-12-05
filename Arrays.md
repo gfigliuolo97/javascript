@@ -34,6 +34,17 @@ console.log(stringArray);
 #### Output
 `["banana","oranges"]`.
 
+## .unshift(elemento)
+Viene inserito un elemento in prima posizione.
+```
+var stringArray = ["apple","banana","oranges"];
+stringArray.unshift("coconut");
+
+console.log(stringArray);
+```
+#### Output
+`["coconut","apple","banana","oranges"]`.
+
 ## Leggere i-esimo elemento
 Vogliamo leggere l'elemento in posizione `x` dell'array.
 Ricordare che le posizioni iniziano da 0.
